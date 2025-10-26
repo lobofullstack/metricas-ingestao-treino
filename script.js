@@ -15,7 +15,7 @@ function calcular() {
     const calorias = (peso * 24).toFixed(0);
     const proteina = (peso * 1.7).toFixed(0);
     const carboidratos = (peso * 2.5).toFixed(0);
-    const agua = (peso * 0.045).toFixed(2);
+    const agua = (peso * 0.045).toFixed(3);
     const creatina = (peso * 0.07).toFixed(2);
 
     // Atualizar valores
@@ -29,3 +29,4 @@ function calcular() {
     results.style.display = 'block';
 
 }
+
